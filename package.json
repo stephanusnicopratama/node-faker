@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
-    "prod": "tsc && node ./build/index.js",
-    "start": "ts-node-dev --respawn --transpileOnly ./index.ts",
+    "start": "tsc && node ./build/index.js",
     "build": "tsc"
   },
   "keywords": [],
