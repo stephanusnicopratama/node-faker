@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
     "prestart": "tsc",
-    "start": "node ./index.ts"
+    "start": "node index.ts"
   },
   "keywords": [],
   "author": "",
